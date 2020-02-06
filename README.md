@@ -1,4 +1,4 @@
-* Extensões requeridas *
+*Extensões requeridas* 
 
 - PHP >= 7.2.0
 - BCMath PHP Extension
