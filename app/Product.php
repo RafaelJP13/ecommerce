@@ -74,7 +74,7 @@ class Product extends Model
                 array_push($AProducts,$product);
             }
 
-            return view('settings', ['products' => $AProducts]);
+            return $AProducts;
 
     }
 

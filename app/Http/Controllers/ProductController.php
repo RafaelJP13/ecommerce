@@ -34,8 +34,6 @@ class ProductController extends Controller
 
     function settings(){
 
-        return Product::settings();
-
         return view('settings', ['products' => Product::settings()->get()->toArray()]);
 
     }
